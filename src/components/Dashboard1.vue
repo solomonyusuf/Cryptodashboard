@@ -3286,9 +3286,9 @@ const toggleSetting = () => {
 
           <div class="tw-pt-[2px] tw-px-[2px]" data-highlights-target="highlights" data-page="coinsIndex">
             <!-- Highlights section -->
-            <div class="tw-grid 2lg:tw-grid-cols-3 tw-gap-2 tw-pb-4 2lg:tw-pb-9">
+            <div  class="tw-grid 2lg:tw-grid-cols-3 tw-gap-2 tw-pb-4 2lg:tw-pb-9">
               <div class="tw-flex tw-flex-col tw-gap-2">
-                <div data-view-component="true"
+                <div style="background:#00443f;"
                   class="tw-overflow-hidden tw-flex tw-items-center tw-justify-between tw-gap-3 tw-rounded-xl tw-bg-white tw-p-4 tw-ring-2 tw-h-full tw-ring-gray-200 dark:tw-bg-moon-900 dark:tw-ring-moon-700">
 
                   <div class="tw-flex tw-flex-col">
@@ -3300,8 +3300,10 @@ const toggleSetting = () => {
                     <div data-view-component="true"
                       class="tw-mt-1 tw-flex tw-flex-wrap tw-items-center tw-text-gray-500 dark:tw-text-moon-200 tw-font-semibold tw-text-sm tw-leading-5">
                       Market Cap
-                      <span class="tw-font-semibold">
-                        <span class="gecko-down"><i class="fas fa-fw fa-caret-down"></i>0.3%</span>
+                      <span class="tw-font-semibold tw-px-2">
+                        <span class="gecko-down">
+                          <img src="https://img.icons8.com/?size=100&amp;id=37319&amp;format=png&amp;color=FC0909" style="height:15px;">
+                          0.3%</span>
                       </span>
 
                     </div>
@@ -3310,8 +3312,7 @@ const toggleSetting = () => {
                     <img class="tw-h-full" src="https://www.coingecko.com/total_market_cap.svg">
                   </a>
                 </div>
-                <div data-view-component="true"
-                  class="tw-overflow-hidden tw-flex tw-items-center tw-justify-between tw-gap-3 tw-rounded-xl tw-bg-white tw-p-4 tw-ring-2 tw-h-full tw-ring-gray-200 dark:tw-bg-moon-900 dark:tw-ring-moon-700">
+                <div style="background:#3c327e;" class="tw-overflow-hidden tw-flex tw-items-center tw-justify-between tw-gap-3 tw-rounded-xl tw-bg-white tw-p-4 tw-ring-2 tw-h-full tw-ring-gray-200 dark:tw-bg-moon-900 dark:tw-ring-moon-700">
 
                   <div class="tw-flex tw-flex-col">
                     <div data-view-component="true"
@@ -3329,7 +3330,7 @@ const toggleSetting = () => {
                   </a>
                 </div>
               </div>
-              <div data-view-component="true"
+              <div id="card"
                 class="tw-max-w-[92vw] tw-ring-gray-200 dark:tw-ring-moon-700 tw-ring-2 tw-py-1.5 tw-px-2 tw-rounded-xl">
                 <div class="tw-flex tw-justify-between tw-pt-2.5 tw-mb-2.5 tw-px-2 tw-truncate">
                   <div data-view-component="true"
@@ -3375,10 +3376,11 @@ const toggleSetting = () => {
 
                               <span data-coin-id="54035" data-price-target="price"
                                 data-price-btc="0.00006697548429403139" data-prev-price="5.975960522437347"
-                                class="">$5.98</span><span class="gecko-up" data-percent-change-target="percent"
+                                class="">$5.98</span><span class="gecko-up tw-px-1" data-percent-change-target="percent"
                                 data-coin-id="54035" data-24h="true" data-json="{&quot;usd&quot;:13.404}"
-                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="54035"><i
-                                  class="fas fa-fw fa-caret-up"></i>8.7%</span>
+                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="54035">
+                                <img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">
+                                8.7%</span>
 
                             </span>
                           </div>
@@ -3411,10 +3413,10 @@ const toggleSetting = () => {
 
                               <span data-coin-id="38108" data-price-target="price"
                                 data-price-btc="0.000008216331036767308" data-prev-price="0.7329070728404192"
-                                class="">$0.7329</span><span class="gecko-up" data-percent-change-target="percent"
+                                class="">$0.7329</span><span class="gecko-up tw-px-1" data-percent-change-target="percent"
                                 data-coin-id="38108" data-24h="true" data-json="{&quot;usd&quot;:-0.315}"
-                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="38108"><i
-                                  class="fas fa-fw fa-caret-up"></i>0.1%</span>
+                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="38108">
+                                <img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">0.1%</span>
 
                             </span>
                           </div>
@@ -3447,10 +3449,10 @@ const toggleSetting = () => {
 
                               <span data-coin-id="25235" data-price-target="price"
                                 data-price-btc="0.00009548122721266389" data-prev-price="8.51704567823468"
-                                class="">$8.52</span><span class="gecko-up" data-percent-change-target="percent"
+                                class="">$8.52</span><span class="tw-px-1 gecko-up" data-percent-change-target="percent"
                                 data-coin-id="25235" data-24h="true" data-json="{&quot;usd&quot;:7.092}"
-                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="25235"><i
-                                  class="fas fa-fw fa-caret-up"></i>4.0%</span>
+                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="25235">
+                                <img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">4.0%</span>
 
                             </span>
                           </div>
@@ -3459,13 +3461,13 @@ const toggleSetting = () => {
                     </div>
                   </a></div>
               </div>
-              <div data-view-component="true"
+              <div id="card" 
                 class="tw-max-w-[92vw] tw-ring-gray-200 dark:tw-ring-moon-700 tw-ring-2 tw-py-1.5 tw-px-2 tw-rounded-xl">
                 <div class="tw-flex tw-justify-between tw-pt-2.5 tw-mb-2.5 tw-px-2 tw-truncate">
                   <div data-view-component="true"
                     class="tw-text-gray-900 dark:tw-text-moon-50 tw-font-semibold tw-text-base tw-leading-6">
 
-                    🚀 Top Gainers
+                    🔥 Largest Gainers
 
                   </div>
                   <div class="tw-flex tw-items-center tw-space-x-1 tw-cursor-pointer"
@@ -3505,11 +3507,11 @@ const toggleSetting = () => {
 
                               <span data-coin-id="1043" data-price-target="price"
                                 data-price-btc="0.000038819252492918747" data-prev-price="3.4610125975444457"
-                                class="gecko-down">$3.46</span><span class="gecko-up"
+                                class="gecko-down">$3.46</span><span class="tw-px-1 gecko-up"
                                 data-percent-change-target="percent" data-coin-id="1043" data-24h="true"
                                 data-json="{&quot;usd&quot;:53.524}" data-attr="price_change_percentage_24h"
-                                data-async="coin_price" data-async-id="1043"><i
-                                  class="fas fa-fw fa-caret-up"></i>34.4%</span>
+                                data-async="coin_price" data-async-id="1043">
+                                <img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">34.4%</span>
 
                             </span>
                           </div>
@@ -3542,10 +3544,9 @@ const toggleSetting = () => {
 
                               <span data-coin-id="53046" data-price-target="price" data-price-btc="9.341844135861861e-9"
                                 data-prev-price="0.0008328918812749557" class="gecko-down">$0.0008329</span><span
-                                class="gecko-up" data-percent-change-target="percent" data-coin-id="53046"
+                                class="gecko-up tw-px-1" data-percent-change-target="percent" data-coin-id="53046"
                                 data-24h="true" data-json="{&quot;usd&quot;:18.585}"
-                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="53046"><i
-                                  class="fas fa-fw fa-caret-up"></i>28.1%</span>
+                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="53046"><img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">28.1%</span>
 
                             </span>
                           </div>
@@ -3578,10 +3579,10 @@ const toggleSetting = () => {
 
                               <span data-coin-id="2341" data-price-target="price"
                                 data-price-btc="0.000009864981560180162" data-prev-price="0.8795333052988437"
-                                class="">$0.8795</span><span class="gecko-up" data-percent-change-target="percent"
+                                class="">$0.8795</span><span class="gecko-up tw-px-1" data-percent-change-target="percent"
                                 data-coin-id="2341" data-24h="true" data-json="{&quot;usd&quot;:34.432}"
-                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="2341"><i
-                                  class="fas fa-fw fa-caret-up"></i>20.0%</span>
+                                data-attr="price_change_percentage_24h" data-async="coin_price" data-async-id="2341">
+                                <img src="https://img.icons8.com/?size=100&amp;id=99979&amp;format=png&amp;color=1CFC09" style="height:10px;" data-v-85741594="">20.0%</span>
 
                             </span>
                           </div>
@@ -16873,6 +16874,10 @@ const toggleSetting = () => {
   tab-size: 4
 }
 
+#card {
+  background: linear-gradient(100deg, #05081d, #1c1b3e, #060823);
+}
+
 #nav {
   background: linear-gradient(to right, #00031d, #171248, #040422);
 }
@@ -16880,7 +16885,7 @@ const toggleSetting = () => {
 .tw-dark {
   margin: -8px;
   --tw-bg-opacity: 1;
-  background: linear-gradient(to right, #00031d, #171248, #040422);
+  background: linear-gradient(to right, #00031d, #0a081e, #040422);
   
   /* background: linear-gradient(to right, #101029, #33266d, #101028); */
   font-family: Inter-Dark, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
