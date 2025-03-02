@@ -26548,7 +26548,7 @@ div[style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"] {
 
 :is(.tw-dark .dark\:tw-bg-moon-900) {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 18 23/var(--tw-bg-opacity))
+  background-color: #0c0f29;
 }
 
 :is(.tw-dark .dark\:tw-bg-moon-900\/90) {
