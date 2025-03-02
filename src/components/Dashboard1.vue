@@ -445,7 +445,7 @@ const toggleSetting = () => {
             </div>
 
             <div v-if="mobileToggle" class="nav-backdrop "></div>
-            <div @click="mobileToggle = false" @class="'tw-hidden' : mobileToggle === false "
+            <div @click="mobileToggle = false" :class="{'tw-hidden':mobileToggle === false}"
               class="nav-wrapper container 2lg:!tw-px-0 2lg:tw-flex 2lg:tw-mr-4 ">
               <!-- Cryptocurrencies -->
               <div class="tw-flex tw-flex-col 2lg:tw-relative 2lg:tw-mx-8"
