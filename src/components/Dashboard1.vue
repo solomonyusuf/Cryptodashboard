@@ -3608,7 +3608,7 @@ const toggleSetting = () => {
                     <span data-view-component="true" class="tw--ml-0.5 tw-mr-1"><i data-view-component="true"
                         class="fas fa-ranking-star"></i>
                     </span>
-                    <span data-view-component="true">All</span>
+                    <span data-view-component="true">Cryptocurrencies</span>
 
 
                   </span></a>
@@ -3634,7 +3634,7 @@ const toggleSetting = () => {
                     <span data-view-component="true" class="tw--ml-0.5 tw-mr-1"><i data-view-component="true"
                         class="far fak fa-pump-dot-fun"></i>
                     </span>
-                    <span data-view-component="true">Pump.fun</span>
+                    <span data-view-component="true">Chains</span>
                     <span data-view-component="true" class="tw--mr-0.5 tw-ml-1"><i data-view-component="true"
                         class="fas fa-external-link"></i>
                     </span>
@@ -3642,8 +3642,6 @@ const toggleSetting = () => {
                   </span>
 
                 </a>
-                <div class="tw-border-r tw-border-gray-200 dark:tw-border-moon-700 tw-my-1"></div>
-
                 <a href="/en/categories" @click="activeTab = 'categories'"
                   :class="{ selected: activeTab === 'categories' }" id="tab-categories" data-view-component="true"
                   class="gecko-tab-chip-item">
@@ -3657,27 +3655,7 @@ const toggleSetting = () => {
 
                   </span></a>
 
-                <a href="/en/categories/proof-of-work-pow" @click="activeTab = 'proof-of-work-pow'"
-                  :class="{ selected: activeTab === 'proof-of-work-pow' }" id="tab-proof-of-work-pow"
-                  data-view-component="true" class="gecko-tab-chip-item">
-                  <span data-view-component="true" class="tw-font-semibold tw-text-sm tw-leading-5">
-
-
-                    🔥 Proof of Work (PoW)
-
-
-                  </span></a>
-
-                <a href="/en/categories/dot-ecosystem" @click="activeTab = 'dot-ecosystem'"
-                  :class="{ selected: activeTab === 'dot-ecosystem' }" id="tab-dot-ecosystem" data-view-component="true"
-                  class="gecko-tab-chip-item">
-                  <span data-view-component="true" class="tw-font-semibold tw-text-sm tw-leading-5">
-
-
-                    🔥 Polkadot Ecosystem
-
-
-                  </span></a>
+                
 
                 <a href="/en/categories/layer-1" @click="activeTab = 'layer-1'"
                   :class="{ selected: activeTab === 'layer-1' }" id="tab-layer-1" data-view-component="true"
@@ -3690,13 +3668,13 @@ const toggleSetting = () => {
 
                   </span></a>
 
-                <a href="/en/categories/smart-contract-platform" @click="activeTab = 'smart-contract-platform'"
-                  :class="{ selected: activeTab === 'smart-contract-platform' }" id="tab-smart-contract-platform"
+                <a href="/en/categories/ai" @click="activeTab = 'ai'"
+                  :class="{ selected: activeTab === 'ai' }" id="tab-ai"
                   data-view-component="true" class="gecko-tab-chip-item">
                   <span data-view-component="true" class="tw-font-semibold tw-text-sm tw-leading-5">
 
 
-                    🔥 Smart Contract Platform
+                    🔥 AI
 
 
                   </span></a>
@@ -16885,9 +16863,8 @@ const toggleSetting = () => {
 .tw-dark {
   margin: -8px;
   --tw-bg-opacity: 1;
-  background: linear-gradient(to right, #00031d, #0a081e, #040422);
-  
-  /* background: linear-gradient(to right, #101029, #33266d, #101028); */
+
+ background: #02051f; 
   font-family: Inter-Dark, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
