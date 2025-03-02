@@ -178,7 +178,7 @@ const toggleSetting = () => {
               <div x-data="{open: false}" menu_position="right" data-view-component="true"
                 class="tw-inline-block tw-text-left">
                 <div @click="toggleSetting">
-                  <button :class="open &amp;&amp; 'gecko-button-dropdown-secondary gecko-button-dropdown-open'"
+                  <button :class="'gecko-button-dropdown-secondary gecko-button-dropdown-open'"
                     type="button" data-view-component="true"
                     class="tw-bg-white dark:tw-bg-moon-800 !tw-border-t-2 !tw-border-x-2 !tw-border-slate-300 dark:!tw-border-moon-500 tw-shadow-secondaryShadow dark:tw-shadow-secondaryShadowDark !tw-mb-1 hover:tw-bg-slate-100 dark:hover:tw-bg-moon-700 hover:tw-shadow-secondaryHover dark:hover:tw-shadow-secondaryHoverDark active:!tw-shadow-secondaryActive dark:active:!tw-shadow-secondaryActiveDark tw-transition-all tw-duration-150 active:tw-translate-y-2 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -245,7 +245,7 @@ const toggleSetting = () => {
               <div x-data="{open: false}" menu_position="right" data-login-state-target="loggedInItem"
                 data-view-component="true" class="tw-inline-block tw-text-left tw-hidden">
                 <div @click="open = !open">
-                  <button :class="open &amp;&amp; 'gecko-button-dropdown-secondary gecko-button-dropdown-open'"
+                  <button :class="'gecko-button-dropdown-secondary gecko-button-dropdown-open'"
                     type="button" data-view-component="true"
                     class="tw-bg-white dark:tw-bg-moon-800 !tw-border-t-2 !tw-border-x-2 !tw-border-slate-300 dark:!tw-border-moon-500 tw-shadow-secondaryShadow dark:tw-shadow-secondaryShadowDark !tw-mb-1 hover:tw-bg-slate-100 dark:hover:tw-bg-moon-700 hover:tw-shadow-secondaryHover dark:hover:tw-shadow-secondaryHoverDark active:!tw-shadow-secondaryActive dark:active:!tw-shadow-secondaryActiveDark tw-transition-all tw-duration-150 active:tw-translate-y-2 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -3707,7 +3707,7 @@ const toggleSetting = () => {
 
             <div x-data="{open: false}" data-view-component="true" class="tw-inline-block tw-text-left">
               <div @click="open = !open">
-                <button :class="open &amp;&amp; 'gecko-button-dropdown-soft gecko-button-dropdown-open'" type="button"
+                <button :class="'gecko-button-dropdown-soft gecko-button-dropdown-open'" type="button"
                   data-view-component="true"
                   class="tw-whitespace-nowrap tw-bg-gray-200 dark:tw-bg-moon-700 hover:tw-bg-gray-300 dark:hover:tw-bg-moon-600 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -15856,7 +15856,7 @@ const toggleSetting = () => {
                 </div>
                 <div x-data="{open: false}" data-view-component="true" class="tw-inline-block tw-text-left">
                   <div @click="open = !open">
-                    <button :class="open &amp;&amp; 'gecko-button-dropdown-soft gecko-button-dropdown-open'"
+                    <button :class="'gecko-button-dropdown-soft gecko-button-dropdown-open'"
                       type="button" data-view-component="true"
                       class="tw-bg-gray-200 dark:tw-bg-moon-700 hover:tw-bg-gray-300 dark:hover:tw-bg-moon-600 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -16170,7 +16170,7 @@ const toggleSetting = () => {
                       </button></a>
                     <div x-data="{open: false}" data-view-component="true" class="tw-cursor-pointer">
                       <div @click="open = !open">
-                        <button :class="open &amp;&amp; 'gecko-button-dropdown-soft gecko-button-dropdown-open'"
+                        <button :class="'gecko-button-dropdown-soft gecko-button-dropdown-open'"
                           type="button" data-view-component="true"
                           class="tw-bg-gray-200 dark:tw-bg-moon-700 hover:tw-bg-gray-300 dark:hover:tw-bg-moon-600 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -16282,7 +16282,7 @@ const toggleSetting = () => {
                       </button></a>
                     <div x-data="{open: false}" data-view-component="true" class="tw-cursor-pointer">
                       <div @click="open = !open">
-                        <button :class="open &amp;&amp; 'gecko-button-dropdown-soft gecko-button-dropdown-open'"
+                        <button :class="'gecko-button-dropdown-soft gecko-button-dropdown-open'"
                           type="button" data-view-component="true"
                           class="tw-bg-gray-200 dark:tw-bg-moon-700 hover:tw-bg-gray-300 dark:hover:tw-bg-moon-600 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
@@ -16395,7 +16395,7 @@ const toggleSetting = () => {
                       </button></a>
                     <div x-data="{open: false}" data-view-component="true" class="tw-cursor-pointer">
                       <div @click="open = !open">
-                        <button :class="open &amp;&amp; 'gecko-button-dropdown-soft gecko-button-dropdown-open'"
+                        <button :class="'gecko-button-dropdown-soft gecko-button-dropdown-open'"
                           type="button" data-view-component="true"
                           class="tw-bg-gray-200 dark:tw-bg-moon-700 hover:tw-bg-gray-300 dark:hover:tw-bg-moon-600 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-2.5 tw-py-1.5 tw-inline-flex">
 
