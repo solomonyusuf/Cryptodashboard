@@ -14,7 +14,16 @@ let activeTab = ref('sign-in');
 const toggleSetting = () => {
   openSetting.value = !openSetting.value;
 }
+onMounted(() => {
+  // Create a new link element
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href =
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"; // Latest FA CDN
 
+  // Append to head
+  document.head.appendChild(link);
+});
 </script>
 
 <template>
