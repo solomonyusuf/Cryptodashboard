@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { onMounted } from 'vue';
 
 let openSetting = ref(false);
 let auth_modal = ref(false);
@@ -10,11 +11,14 @@ let activeTab = ref('sign-in');
 const toggleSetting = () => {
   openSetting.value = !openSetting.value;
 }
+onMounted(() => {
+  document.body.classList.add('darktheme', 'tw-dark');
+});
 
 </script>
 
 <template>
-  <div class="darktheme tw-dark">
+  <div class="">
     <header class="header dashboard tw-flex tw-flex-col">
       <!-- Top announcements -->
       <div id="announcement" class="tw-bg-gray-800 dark:tw-bg-moon-800" style="display: none;">
